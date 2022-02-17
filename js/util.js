@@ -1,9 +1,4 @@
 
-
-function createElements (...array) {
-	return array.map(el => document.createElement(el))
-}
-
 function writeLocalStorage(data) {
     window.localStorage.setItem("activCategory", data)
 }
